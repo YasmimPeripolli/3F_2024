@@ -7,6 +7,10 @@
     --texto-fundo: rgba(58,55,94,0.3);
 }
 
+body{
+    background-color:var(--cor-de-fundo);
+}
+
 *{
     color: var(--branco);
 }
@@ -62,7 +66,7 @@ span{
     border-radius: 0 0 20px 20px;
 }
 
-.ativo{
+.botao.ativo{
     background-color: var(--botao-ativo);
     border-bottom: 4px solid var(--verde);
 }
@@ -75,6 +79,16 @@ span{
 .aba-conteudo,.ativo{
 display: flex;
 }
+
+.aba-conteudo{
+    display: none;
+}
+
+.aba-conteudo.ativo{
+display: block;
+}
+
+
 
 @media screen and (min-width: 700px) {
     .botoes{
