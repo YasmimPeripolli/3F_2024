@@ -39,10 +39,7 @@ contador[2].textContent = `Faltam ${contadorTerceiro[0]} dias, ${contadorTerceir
 let contadorQuarto = calculaTempo(tempoObjetivo4)
 contador[3].textContent = `Faltam ${contadorQuarto[0]} dias, ${contadorQuarto[1]} horas, ${contadorQuarto[2]} minutos, ${contadorQuarto[3]} segundos`
 
-contador[0].textContent=`Faltam ${dias} dias, ${horas} horas, ${minutos}, minutos e ${segundos} segundos`
-contador[1].textContent=tempoObjetivo2-agora
-contador[2].textContent=tempoObjetivo3-agora
-contador[3].textContent=tempoObjetivo4-agora
+
 
 for(let i = 0 ; i <botoes.length ; i++){
     botoes[i].onclick = function (){
