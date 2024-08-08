@@ -27,7 +27,7 @@ segundos= (tempoObjetivo-agora)/1000;
 return [dias,horas,minutos,segundos]
 
 }
-let contadorPrimeiro = calculaTempo(tempoObjetivo1)
+/*let contadorPrimeiro = calculaTempo(tempoObjetivo1)
 contador[0].textContent = `Faltam ${contadorPrimeiro[0]} dias, ${contadorPrimeiro[1]} horas, ${contadorPrimeiro[2]} minutos, ${contadorPrimeiro[3]} segundos`
 
 let contadorSegundo = calculaTempo(tempoObjetivo2)
@@ -37,7 +37,7 @@ let contadorTerceiro = calculaTempo(tempoObjetivo3)
 contador[2].textContent = `Faltam ${contadorTerceiro[0]} dias, ${contadorTerceiro[1]} horas, ${contadorTerceiro[2]} minutos, ${contadorTerceiro[3]} segundos`
 
 let contadorQuarto = calculaTempo(tempoObjetivo4)
-contador[3].textContent = `Faltam ${contadorQuarto[0]} dias, ${contadorQuarto[1]} horas, ${contadorQuarto[2]} minutos, ${contadorQuarto[3]} segundos`
+contador[3].textContent = `Faltam ${contadorQuarto[0]} dias, ${contadorQuarto[1]} horas, ${contadorQuarto[2]} minutos, ${contadorQuarto[3]} segundos`*/
 
 
 
